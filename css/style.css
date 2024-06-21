@@ -1,0 +1,1372 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: white;
+  /*font-family: ;*/
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  position: relative;
+}
+h2::after {
+  content: "";
+  border: 10px solid #91C800;
+  padding: 25px;
+  top: -10px;
+  left: -15px;
+  position: absolute;
+  z-index: -1;
+}
+
+.button {
+  font-weight: 800;
+  color: #000;
+  background: linear-gradient(#B8FB09, #91C800);
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 45px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+}
+.logo span {
+  font-weight: 500;
+}
+
+.burger {
+  display: none;
+}
+
+.header {
+  background-color: #3F3F3F;
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.header__body a {
+  color: #fff;
+}
+.header__phone {
+  font-size: 30px;
+  font-weight: 700;
+}
+.header__phone:hover {
+  color: #91C800;
+}
+
+.nav {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  gap: 20px;
+}
+.nav__link:hover {
+  color: #91C800;
+}
+
+.main {
+  margin: 50px 0;
+}
+.main::after {
+  content: "";
+  background: center/100% no-repeat url(/image/City.png);
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 200px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.main__logo {
+  display: none;
+}
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.main__title {
+  color: #000;
+  margin: 0;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.main__img {
+  max-width: 764px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone__tel {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 30px;
+}
+.phone__button {
+  font-size: 48px;
+  padding: 20px;
+  border-radius: 45px;
+}
+
+.service__row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 99px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px 20.5px 37px;
+  border-radius: 20px;
+}
+.service__item_night {
+  background-color: #132D45;
+  color: #fff;
+}
+.service__img {
+  max-width: 221px;
+  margin-bottom: 20px;
+}
+.service__text {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service__price {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service__button {
+  font-size: 16px;
+  padding: 14px 38px;
+  border-radius: 20px;
+}
+
+.area__title {
+  margin: 50px 0;
+}
+.area__subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.area__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.area__pair_top {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.area__pair_bottom {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.area__img {
+  max-width: 570px;
+}
+
+.advantage__title {
+  margin-bottom: 50px;
+}
+.advantage__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantage__item {
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.advantage__card {
+  padding: 37px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.advantage__text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.advantage__subtext {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.work__title {
+  margin-bottom: 50px;
+}
+.work__content {
+  display: flex;
+  justify-content: space-between;
+}
+.work__item {
+  width: 390px;
+  height: 104px;
+  background-color: #91C800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.work__text {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.radius {
+  background-color: #3F3F3F;
+  padding: 50px 0;
+}
+.radius__body {
+  color: #fff;
+}
+.radius h2 {
+  z-index: 2;
+}
+.radius__title {
+  margin-bottom: 50px;
+}
+.radius__content {
+  text-align: center;
+}
+.radius__text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.radius__phone a {
+  color: #fff;
+}
+
+.reviews__title {
+  margin: 50px 0;
+}
+.reviews__content {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 50px;
+}
+.reviews__item {
+  padding: 50px 10px;
+  flex: 1 1 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.reviews__img {
+  margin-bottom: 30px;
+}
+.reviews__text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.reviews__subtext {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #3F3F3F;
+  padding: 50px 0;
+}
+.footer__body {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.footer__logo {
+  color: #fff;
+}
+.footer__phone {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  h2 {
+    font-size: 40px;
+  }
+  h2::after {
+    padding: 22px;
+  }
+  .header__phone {
+    font-size: 18px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .nav {
+    font-size: 16px;
+  }
+  .main__title {
+    font-size: 56px;
+  }
+  .main__img {
+    max-width: 650px;
+  }
+  .phone__tel {
+    font-size: 32px;
+  }
+  .phone__button {
+    font-size: 32px;
+  }
+  .service__row {
+    gap: 68px;
+  }
+  .area__subtitle {
+    font-size: 26px;
+  }
+  .area__pair_top {
+    font-size: 24px;
+  }
+  .advantage__content {
+    align-items: flex-start;
+  }
+  .advantage__text {
+    font-size: 23px;
+  }
+  .work__item {
+    text-align: center;
+    width: 300px;
+    height: 90px;
+  }
+  .radius__text {
+    font-size: 26px;
+  }
+  .reviews__content {
+    gap: 15px;
+  }
+  .reviews__item {
+    padding: 50px 10px;
+  }
+  .footer__phone {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 30px;
+  }
+  h2::after {
+    padding: 19px;
+    top: -12px;
+    left: -20px;
+  }
+  .header__phone {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 26px;
+  }
+  .nav {
+    font-size: 12px;
+    gap: 20px;
+  }
+  .main__title {
+    font-size: 50px;
+  }
+  .main__img {
+    max-width: 540px;
+  }
+  .phone__tel {
+    font-size: 30px;
+  }
+  .phone__button {
+    font-size: 30px;
+  }
+  .service__row {
+    gap: 50px;
+  }
+  .service__img {
+    max-width: 170px;
+  }
+  .service__text {
+    font-size: 12px;
+  }
+  .service__price {
+    font-size: 24px;
+  }
+  .service__button {
+    font-size: 12px;
+  }
+  .area__subtitle {
+    font-size: 24px;
+  }
+  .area__pair_top {
+    font-size: 24px;
+  }
+  .area__pair_bottom {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .area__pair_bottom:last-child {
+    margin-bottom: 50px;
+  }
+  .area__img {
+    max-width: 400px;
+  }
+  .advantage__card {
+    padding: 30px;
+  }
+  .advantage__img {
+    width: 50px;
+  }
+  .advantage__text {
+    font-size: 20px;
+  }
+  .advantage__subtext {
+    font-size: 12px;
+  }
+  .work__item {
+    width: 240px;
+    height: 75px;
+  }
+  .work__text {
+    font-size: 12px;
+  }
+  .radius__text {
+    font-size: 24px;
+  }
+  .reviews__text {
+    font-size: 24px;
+  }
+  .reviews__subtext {
+    font-size: 12px;
+  }
+  .footer__phone {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  h2 {
+    font-size: 24px;
+  }
+  h2::after {
+    content: "";
+    border: 6px solid #91C800;
+    padding: 16px;
+    top: -10px;
+    left: -13px;
+  }
+  .header__phone {
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .nav {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .main::after {
+    bottom: 300px;
+  }
+  .main__title {
+    font-size: 40px;
+  }
+  .main__img {
+    max-width: 400px;
+  }
+  .phone__tel {
+    font-size: 20px;
+  }
+  .phone__button {
+    font-size: 20px;
+  }
+  .service__row {
+    gap: 20px;
+  }
+  .area__subtitle {
+    font-size: 19px;
+  }
+  .area__pair_top {
+    font-size: 19px;
+  }
+  .area__img {
+    max-width: 350px;
+  }
+  .advantage__text {
+    font-size: 19px;
+  }
+  .work__item {
+    width: 210px;
+  }
+  .work__text {
+    font-size: 11px;
+  }
+  .radius__text {
+    font-size: 19px;
+  }
+  .reviews__text {
+    font-size: 19px;
+  }
+  .reviews__subtext {
+    font-size: 11px;
+  }
+  .footer__phone {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
+    border: 3px solid #91C800;
+    padding: 10px;
+    top: -6px;
+    left: -8px;
+  }
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+  .header__body {
+    padding: 15px 0;
+  }
+  .header__phone {
+    font-size: 7px;
+  }
+  .nav {
+    font-size: 7px;
+    gap: 3px;
+  }
+  .main {
+    margin: 30px 0;
+  }
+  .main::after {
+    content: "";
+    background: center/100% no-repeat url(/image/City.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 470px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  .main__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .main__content {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main__img {
+    max-width: 210px;
+  }
+  .phone__tel {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .phone__button {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .service__row {
+    margin-top: 15px;
+    gap: 10px;
+  }
+  .service__item {
+    padding: 10px 10px;
+  }
+  .service__img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  .service__text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .service__price {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .service__button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .area__title {
+    margin: 30px 0 15px;
+  }
+  .area__subtitle {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .area__pair_top {
+    font-size: 14px;
+  }
+  .area__pair_bottom {
+    margin-bottom: 15px;
+  }
+  .area__pair_bottom:last-child {
+    margin-bottom: 30px;
+  }
+  .area__img {
+    max-width: 0px;
+  }
+  .advantage__title {
+    margin-bottom: 15px;
+  }
+  .advantage__content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .advantage__item {
+    margin-bottom: 15px;
+  }
+  .advantage__img {
+    width: 20px;
+  }
+  .advantage__card {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .advantage__text {
+    font-size: 14px;
+  }
+  .advantage__subtext {
+    font-size: 10px;
+  }
+  .work__title {
+    margin: 15px 0;
+  }
+  .work__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .work__item {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .work__item:last-child {
+    margin-bottom: 15px;
+  }
+  .work__text {
+    font-size: 10px;
+  }
+  .radius {
+    padding: 15px 0;
+  }
+  .radius__title {
+    margin-bottom: 15px;
+  }
+  .radius__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .reviews__title {
+    margin: 15px 0;
+  }
+  .reviews__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 100px;
+    gap: 10px;
+  }
+  .reviews__item {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+  .reviews__item:last-child {
+    margin-bottom: 15px;
+  }
+  .reviews__img {
+    margin-bottom: 10px;
+    width: 60px;
+  }
+  .reviews__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .reviews__subtext {
+    font-size: 10px;
+  }
+  .footer {
+    padding: 15px 0;
+  }
+  .footer__body {
+    gap: 100px;
+  }
+  .footer__phone {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 460px) {
+  @keyframes animationBurger {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .burger {
+    z-index: 50;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    width: 17px;
+    height: 13px;
+  }
+  .burger_span {
+    display: block;
+    height: 2px;
+    width: 80%;
+    background: #000;
+    transition: all 0.3s ease 0s;
+  }
+  .burger::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    top: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .burger::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .burger_active {
+    z-index: 51;
+  }
+  .burger_active span {
+    transform: scale(0);
+  }
+  .burger_active::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+  }
+  .burger_active::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  .header {
+    background-color: #fff;
+  }
+  .header__wrapper {
+    padding: 15px;
+  }
+  .header__body {
+    display: none;
+  }
+  .header__body_active {
+    display: inline;
+  }
+  .nav {
+    display: none;
+    font-size: 7px;
+    gap: 3px;
+  }
+  .nav__link:hover {
+    opacity: 0.6;
+    color: #000;
+  }
+  .nav_open {
+    color: #000;
+    font-weight: 600;
+    z-index: 50;
+    gap: 25px;
+    font-size: 20px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #91C800;
+    animation: animationBurger 0.4s;
+  }
+  .nav_open a {
+    color: #000;
+  }
+  .main {
+    margin: 0;
+  }
+  .main::after {
+    display: none;
+  }
+  .main__body {
+    background-color: #3F3F3F;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  .main__logo {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  .main__content {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .main__title {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .main__phone a {
+    font-size: 20px;
+  }
+  .main__phone a.phone__tel {
+    color: #fff;
+  }
+  .main__img {
+    display: none;
+  }
+  .service__row {
+    margin-top: 15px;
+    gap: 10px;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .service__item {
+    padding: 14px;
+  }
+  .service__img {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+  .service__text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .service__price {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .service__button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .area__title {
+    margin-top: 30px;
+  }
+  .area__subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .area__content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .area__pair_top {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .area__pair_bottom {
+    margin-bottom: 15px;
+  }
+  .reviews__content {
+    padding: 0;
+    gap: 10px;
+  }
+  .footer__phone {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .area__subtitle {
+    font-size: 10px;
+  }
+  .footer__phone {
+    font-size: 8px;
+  }
+}

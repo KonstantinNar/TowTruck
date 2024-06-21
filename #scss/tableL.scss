@@ -1,0 +1,92 @@
+@media screen and (max-width: 900px) {
+    h2 {
+        font-size: 24px;
+        &::after {
+            content: "";
+            border: 6px solid #91C800;
+            padding: 16px;
+            top: -10px;
+            left: -13px;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .nav {
+        font-size: 10px;
+        gap: 10px;
+    }
+    .main {
+        &::after {
+            bottom: 300px;
+        }
+        &__title {
+            font-size: 40px;
+        }
+        &__img {
+            max-width: 400px;
+        }
+    }
+    .phone {
+        &__tel {
+            font-size: 20px;
+        }
+        &__button {
+            font-size: 20px;
+        }
+    }
+    .service {
+        &__row {
+            gap: 20px;
+        }
+    }
+    .area {
+        &__subtitle {
+            font-size: 19px;
+        }
+        &__pair {
+            &_top {
+                font-size: 19px;
+            }
+        }
+        &__img {
+            max-width: 350px;
+        }
+    }
+    .advantage {
+        &__text {
+            font-size: 19px;
+        }
+    }
+    .work {
+        &__item {
+            width: 210px;
+        }
+        &__text {
+            font-size: 11px;
+        }
+    }
+    .radius {
+        &__text {
+            font-size: 19px;
+        }
+    }
+    .reviews {
+        &__text {
+            font-size: 19px;
+        }
+        &__subtext {
+            font-size: 11px;
+        }
+    }
+    .footer {
+        &__phone {
+            font-size: 18px;
+        }
+    }
+}

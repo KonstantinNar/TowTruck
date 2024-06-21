@@ -1,0 +1,213 @@
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 15px;
+        &::after {
+            border: 3px solid #91C800;
+            padding: 10px;
+            top: -6px;
+            left: -8px;
+        }
+
+    }
+    .wrapper {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .logo {
+        font-size: 14px;
+    }
+    .header {
+        &__body {
+            padding: 15px 0;
+        }
+        &__phone {
+            font-size: 7px;
+        }
+    }
+    .nav {
+        font-size: 7px;
+        gap: 3px;
+    }
+    .main {
+        margin: 30px 0;
+        &::after {
+            content: "";
+            background: center/100% no-repeat url(/image/City.png);
+            opacity: 0.1;
+            top: 0;
+            left: 0;
+            bottom: 470px;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+        &__title {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        &__content {
+            justify-content: space-around;
+            align-items: center;
+        }
+        &__img {
+            max-width: 210px;
+        }
+    }
+    .phone {
+        &__tel {
+            font-size: 10px;
+            margin-bottom: 15px;
+        }
+        &__button {
+            font-size: 10px;
+            padding: 10px;
+        }
+    }
+    .service {
+        &__row {
+            margin-top: 15px;
+            gap: 10px;
+        }
+        &__item {
+            padding: 10px 10px;
+        }
+        &__img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        &__price {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        &__button {
+            padding: 10px 20px;
+            font-size: 10px;
+        }
+    }
+    .area {
+        &__title {
+            margin: 30px 0 15px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            margin: 15px 0;
+        }
+        &__pair {
+            &_top {
+                font-size: 14px;
+            }
+            &_bottom {
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        &__img {
+            max-width: 0px;
+        }
+    }
+    .advantage {
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__content {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__item {
+            margin-bottom: 15px;
+        }
+        &__img {
+            width: 20px;
+        }
+        &__card {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+        &__subtext {
+            font-size: 10px;
+        }
+    }
+    .work {
+        &__title {
+            margin: 15px 0;
+        }
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item {
+            width: 170px;
+            height: 60px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 15px;
+            }
+        }
+        &__text {
+            font-size: 10px;
+        }
+    }
+    .radius {
+        padding: 15px 0;
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    .reviews {
+        &__title {
+            margin: 15px 0;
+        }
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            padding: 0 100px;
+            gap: 10px;
+        }
+        &__item {
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 0;
+            &:last-child {
+                margin-bottom: 15px;
+            }
+        }
+        &__img {
+            margin-bottom: 10px;
+            width: 60px;
+        }
+        &__text {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        &__subtext {
+            font-size: 10px;
+        }
+    }
+    .footer {
+        padding: 15px 0;
+        &__body {
+            gap: 100px;
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+}

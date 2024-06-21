@@ -1,0 +1,61 @@
+@media screen and (max-width: 1280px) {
+  h2 {
+    font-size: 40px;
+  }
+  h2::after {
+    padding: 22px;
+  }
+  .header__phone {
+    font-size: 18px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .nav {
+    font-size: 16px;
+  }
+  .main__title {
+    font-size: 56px;
+  }
+  .main__img {
+    max-width: 650px;
+  }
+  .phone__tel {
+    font-size: 32px;
+  }
+  .phone__button {
+    font-size: 32px;
+  }
+  .service__row {
+    gap: 68px;
+  }
+  .area__subtitle {
+    font-size: 26px;
+  }
+  .area__pair_top {
+    font-size: 24px;
+  }
+  .advantage__content {
+    align-items: flex-start;
+  }
+  .advantage__text {
+    font-size: 23px;
+  }
+  .work__item {
+    text-align: center;
+    width: 300px;
+    height: 90px;
+  }
+  .radius__text {
+    font-size: 26px;
+  }
+  .reviews__content {
+    gap: 15px;
+  }
+  .reviews__item {
+    padding: 50px 10px;
+  }
+  .footer__phone {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 30px;
+  }
+  h2::after {
+    padding: 19px;
+    top: -12px;
+    left: -20px;
+  }
+  .header__phone {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 26px;
+  }
+  .nav {
+    font-size: 12px;
+    gap: 20px;
+  }
+  .main__title {
+    font-size: 50px;
+  }
+  .main__img {
+    max-width: 540px;
+  }
+  .phone__tel {
+    font-size: 30px;
+  }
+  .phone__button {
+    font-size: 30px;
+  }
+  .service__row {
+    gap: 50px;
+  }
+  .service__img {
+    max-width: 170px;
+  }
+  .service__text {
+    font-size: 12px;
+  }
+  .service__price {
+    font-size: 24px;
+  }
+  .service__button {
+    font-size: 12px;
+  }
+  .area__subtitle {
+    font-size: 24px;
+  }
+  .area__pair_top {
+    font-size: 24px;
+  }
+  .area__pair_bottom {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .area__pair_bottom:last-child {
+    margin-bottom: 50px;
+  }
+  .area__img {
+    max-width: 400px;
+  }
+  .advantage__card {
+    padding: 30px;
+  }
+  .advantage__img {
+    width: 50px;
+  }
+  .advantage__text {
+    font-size: 20px;
+  }
+  .advantage__subtext {
+    font-size: 12px;
+  }
+  .work__item {
+    width: 240px;
+    height: 75px;
+  }
+  .work__text {
+    font-size: 12px;
+  }
+  .radius__text {
+    font-size: 24px;
+  }
+  .reviews__text {
+    font-size: 24px;
+  }
+  .reviews__subtext {
+    font-size: 12px;
+  }
+  .footer__phone {
+    font-size: 22px;
+  }
+}

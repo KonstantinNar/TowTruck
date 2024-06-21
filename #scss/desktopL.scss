@@ -1,0 +1,85 @@
+@media screen and (max-width: 1280px) {
+    h2 {
+        font-size: 40px;
+        &::after {
+            padding: 22px;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 18px;
+        }
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .nav {
+        font-size: 16px;
+    }
+
+    .main {
+        &__title {
+            font-size: 56px;
+        }
+        &__img {
+            max-width: 650px;
+        }
+    }
+    .phone {
+        &__tel {
+            font-size: 32px;
+        }
+        &__button {
+            font-size: 32px;
+        }
+    }
+    .service {
+        &__row {
+            gap: 68px;
+        }
+    }
+    .area {
+        &__subtitle {
+            font-size: 26px;
+        }
+        &__pair {
+            &_top {
+                font-size: 24px;
+            }
+        }
+    }
+    .advantage {
+        &__content {
+            align-items: flex-start;
+        }
+        &__text {
+            font-size: 23px;
+        }
+    }
+    .work {
+        &__item {
+            text-align: center;
+            width: 300px;
+            height: 90px;
+        }
+
+    }
+    .radius {
+        &__text {
+            font-size: 26px;
+        }
+    }
+    .reviews {
+        &__content {
+            gap: 15px;
+        }
+        &__item {
+            padding: 50px 10px;
+        }
+    }
+    .footer {
+        &__phone {
+            font-size: 26px;
+        }
+    }
+}

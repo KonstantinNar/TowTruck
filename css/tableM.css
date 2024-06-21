@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
+    border: 3px solid #91C800;
+    padding: 10px;
+    top: -6px;
+    left: -8px;
+  }
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+  .header__body {
+    padding: 15px 0;
+  }
+  .header__phone {
+    font-size: 7px;
+  }
+  .nav {
+    font-size: 7px;
+    gap: 3px;
+  }
+  .main {
+    margin: 30px 0;
+  }
+  .main::after {
+    content: "";
+    background: center/100% no-repeat url(/image/City.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 470px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  .main__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .main__content {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main__img {
+    max-width: 210px;
+  }
+  .phone__tel {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .phone__button {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .service__row {
+    margin-top: 15px;
+    gap: 10px;
+  }
+  .service__item {
+    padding: 10px 10px;
+  }
+  .service__img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  .service__text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .service__price {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .service__button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .area__title {
+    margin: 30px 0 15px;
+  }
+  .area__subtitle {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .area__pair_top {
+    font-size: 14px;
+  }
+  .area__pair_bottom {
+    margin-bottom: 15px;
+  }
+  .area__pair_bottom:last-child {
+    margin-bottom: 30px;
+  }
+  .area__img {
+    max-width: 0px;
+  }
+  .advantage__title {
+    margin-bottom: 15px;
+  }
+  .advantage__content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .advantage__item {
+    margin-bottom: 15px;
+  }
+  .advantage__img {
+    width: 20px;
+  }
+  .advantage__card {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .advantage__text {
+    font-size: 14px;
+  }
+  .advantage__subtext {
+    font-size: 10px;
+  }
+  .work__title {
+    margin: 15px 0;
+  }
+  .work__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .work__item {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .work__item:last-child {
+    margin-bottom: 15px;
+  }
+  .work__text {
+    font-size: 10px;
+  }
+  .radius {
+    padding: 15px 0;
+  }
+  .radius__title {
+    margin-bottom: 15px;
+  }
+  .radius__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .reviews__title {
+    margin: 15px 0;
+  }
+  .reviews__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 100px;
+    gap: 10px;
+  }
+  .reviews__item {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+  .reviews__item:last-child {
+    margin-bottom: 15px;
+  }
+  .reviews__img {
+    margin-bottom: 10px;
+    width: 60px;
+  }
+  .reviews__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .reviews__subtext {
+    font-size: 10px;
+  }
+  .footer {
+    padding: 15px 0;
+  }
+  .footer__body {
+    gap: 100px;
+  }
+  .footer__phone {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,121 @@
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 30px;
+        &::after {
+            padding: 19px;
+            top: -12px;
+            left: -20px;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 20px;
+        }
+    }
+    .logo {
+        font-size: 26px;
+    }
+    .nav {
+        font-size: 12px;
+        gap: 20px;
+    }
+    .main {
+        &__title {
+            font-size: 50px;
+        }
+        &__img {
+            max-width: 540px;
+        }
+    }
+    .phone {
+        &__tel {
+            font-size: 30px;
+        }
+        &__button {
+            font-size: 30px;
+        }
+    }
+    .service {
+        &__row {
+            gap: 50px;
+        }
+
+
+        &__img {
+            max-width: 170px;
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__price {
+            font-size: 24px;
+        }
+
+        &__button {
+            font-size: 12px;
+        }
+    }
+    .area {
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__pair {
+            &_top {
+                font-size: 24px;
+            }
+            &_bottom {
+                font-size: 12px;
+                margin-bottom: 30px;
+                &:last-child {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        &__img {
+            max-width: 400px;
+        }
+    }
+    .advantage {
+        &__card {
+            padding: 30px;
+        }
+        &__img {
+            width: 50px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+        &__subtext {
+            font-size: 12px;
+        }
+    }
+    .work {
+        &__item {
+            width: 240px;
+            height: 75px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+    .radius {
+        &__text {
+            font-size: 24px;
+        }
+    }
+    .reviews {
+        &__text {
+            font-size: 24px;
+        }
+        &__subtext {
+            font-size: 12px;
+        }
+    }
+    .footer {
+        &__phone {
+            font-size: 22px;
+        }
+    }
+}

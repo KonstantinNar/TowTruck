@@ -1,0 +1,8 @@
+@media screen and (max-width: 460px) {
+  .area__subtitle {
+    font-size: 10px;
+  }
+  .footer__phone {
+    font-size: 8px;
+  }
+}
